@@ -1,0 +1,12 @@
+#Find out how many items you can buy with the money you have
+def buy(m, i, p):
+    bought = 0 #This code tracks the number of items bought
+    while i > 0 and m >= p: #This code tracks if there is still items available and also if you have enough to buy each item
+        bought += 1
+        m -= p
+        i -= 1
+    print('The number of items bought: ', bought)
+
+buy(100,20,2)
+
+
