@@ -1,5 +1,5 @@
 """
-7. Create a Cart class for an online shop where you can add items, 
+Create a Cart class for an online shop where you can add items, 
 remove items, and calculate the total price including a 15% tax
 """
 #create a class cart
